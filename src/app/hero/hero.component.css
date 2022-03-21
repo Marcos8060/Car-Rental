@@ -11,12 +11,12 @@ h1{
 .hero_section{
     display: flex;
 }
-.hero_section > .left{
+.left{
     background: white;
     width: 50%;
     height: 100vh;
 }
-.hero_section > .right{
+.right{
     background: #DBEAF2;
     width: 50%;
     height: 100vh;
@@ -37,7 +37,7 @@ h1{
 }
 .hero__car{
     margin-left: -260px;
-    height: 450px;
+    height: 400px;
 }
 .btn1{
     background: #000;
@@ -48,4 +48,13 @@ h1{
     height: 40px;
     padding: 10px;
     border-radius: 3px;
+}
+.models__section{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.models{
+    height: 70px;
 }
