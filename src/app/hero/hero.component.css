@@ -1,6 +1,13 @@
 h3{
     font-weight: bolder;
 }
+p{
+    font-family: Nunito;
+}
+h1{
+    font-weight: bolder;
+    font-size: 55px;
+}
 .hero_section{
     display: flex;
 }
@@ -22,8 +29,23 @@ h3{
 .profile__homeImg{
     width: 50px;
     height: 50px;
+    object-fit: cover;
     border-radius: 999px;
 }
 .dropdown-item{
     font-family: Nunito;
+}
+.hero__car{
+    margin-left: -260px;
+    height: 450px;
+}
+.btn1{
+    background: #000;
+    color: white;
+    border: none;
+    font-family: Nunito;
+    font-weight: bolder;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
 }
