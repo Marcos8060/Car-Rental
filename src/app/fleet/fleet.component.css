@@ -47,4 +47,5 @@ p{
 }
 .lower__gallery__section > div > div > img{
     border-radius: 10px;
+    margin-bottom: 8px;
 }
