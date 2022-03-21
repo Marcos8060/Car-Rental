@@ -29,14 +29,22 @@ p{
     background: black;
     color: white;
 }
-.gallery__section{
+.top__gallery__section{
     margin-top: 10vh;
     margin-bottom: 10px;
     display: flex;
-    overflow-y: scroll;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
-.gallery__section > img{
+.top__gallery__section::-webkit-scrollbar{
+    display: none;
+}
+.top__gallery__section > img{
     max-height: 350px;
-    border-radius: 10px;
+    width: 300px;
+    border-radius: 15px;
     margin: 15px;
+}
+.lower__gallery__section > div > div > img{
+    border-radius: 10px;
 }
