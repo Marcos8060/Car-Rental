@@ -1,0 +1,42 @@
+h1{
+    font-weight: bolder;
+}
+p{
+    font-family: Nunito;
+}
+.category__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category__buttons > button{
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 100px;
+    font-family: Nunito;
+}
+.category__buttons > button:first-child{
+    background: black;
+    color: white;
+}
+.category__buttons > button:nth-child(3){
+    background: black;
+    color: white;
+}
+.category__buttons > button:nth-child(5){
+    background: black;
+    color: white;
+}
+.gallery__section{
+    margin-top: 10vh;
+    margin-bottom: 10px;
+    display: flex;
+    overflow-y: scroll;
+}
+.gallery__section > img{
+    max-height: 350px;
+    border-radius: 10px;
+    margin: 15px;
+}
